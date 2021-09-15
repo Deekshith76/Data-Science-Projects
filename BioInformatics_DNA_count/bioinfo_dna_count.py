@@ -28,11 +28,11 @@ sequence_input = ">DNA Query2\naatatgagccatgcataccaaggacgtcatagggtcgcagacagactag
 
 sequence = st.text_area("Sequence input", sequence_input, height = 250)
 sequence = sequence.splitlines()
-sequence
+#sequence
 sequence = sequence[1:] # skips the sequence name (first line)
-sequence 
+#sequence 
 sequence = "".join(sequence) #concatenates list to string
-sequence
+#sequence
 
 st.write("""
          ***
@@ -40,7 +40,7 @@ st.write("""
 
 # prints the input DNA sequence
 st.header('INPUT (DNA Query)')
-sequence
+st.write(sequence)
 
 # DNA nucleotide count
 st.header('OUTPUT (DNA Nucleotide Count)')
