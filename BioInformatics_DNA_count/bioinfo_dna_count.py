@@ -6,7 +6,7 @@ import altair as alt
 from PIL import Image
 
 # Page title
-image = Image.open('deku.jpg')
+image = Image.open('DNA.jpg')
 
 st.image(image, use_column_width = True)
 
